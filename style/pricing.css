@@ -32,4 +32,14 @@
     .public_h3 {
         font-size: 2.2rem;
     }
+
+    .study {
+        margin-bottom: 16rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .study {
+        margin-bottom: 12rem;
+    }
 }

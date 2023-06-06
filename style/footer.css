@@ -4,7 +4,6 @@ footer {
 	display: flex;
 	font-size: 2.4rem;
 	line-height: 3.6rem;
-	margin-top: 10rem;
 }
 
 .footer_right {
@@ -18,7 +17,17 @@ footer {
 
 @media screen and (max-width: 992px) {
 	footer {
+		padding: 2.2rem 0;
 		font-size: 1.6rem;
 		line-height: 2.4rem;
 	}
+}
+
+@media screen and (max-width: 768px) {
+	footer {
+		padding: 1.8rem 0;
+		font-size: 1.3rem;
+		line-height: 2rem;
+	}
+
 }

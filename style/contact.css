@@ -1,6 +1,7 @@
 
 .contact {
     display: flex;
+    margin-bottom: 10rem;
 }
 
 .contact_img {
@@ -31,6 +32,8 @@ form>input {
     outline: none;
 }
 
-.contact {
-    margin: 10rem 0;
+@media screen and (max-width: 768px) {
+    .contact {
+        margin-bottom: 5.6rem;
+    }
 }

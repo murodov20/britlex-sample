@@ -76,6 +76,9 @@
 }
 
 @media screen and (max-width:768px) {
+    .hero_section {
+        margin-bottom: 5.6rem;
+    }
     .hero_left_side > h1 {
         font-size: 3.6rem;
         line-height: 4.5rem;
