@@ -2,7 +2,7 @@
 .study {
     display: flex;
     gap: 3.9rem;
-    margin-bottom: 5rem;
+    margin-bottom: 10rem;
 }
 
 .online>img {
@@ -26,4 +26,10 @@
 
 .money>span:nth-child(1) {
     line-height: 0rem;
+}
+
+@media screen and (max-width:992px) {
+    .public_h3 {
+        font-size: 2.2rem;
+    }
 }

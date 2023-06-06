@@ -15,3 +15,10 @@ footer {
 	flex: 1;
 	justify-content: flex-start;
 }
+
+@media screen and (max-width: 992px) {
+	footer {
+		font-size: 1.6rem;
+		line-height: 2.4rem;
+	}
+}
