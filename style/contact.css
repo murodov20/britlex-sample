@@ -1,0 +1,32 @@
+
+.contact {
+    display: flex;
+}
+
+.contact_img {
+    width: 40%;
+}
+
+.contact_info {
+    width: 60%;
+}
+
+.contact_info>h2 {
+    text-align: start;
+    margin-bottom: 3.7rem;
+}
+
+form {
+    display: flex;
+    gap: 1.2rem;
+}
+
+form>input {
+    padding: 2.6rem 0rem 3rem 3.3rem;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    width: 60%;
+    border-radius: 1rem;
+    border: 1px solid #8F95A5;
+    outline: none;
+}

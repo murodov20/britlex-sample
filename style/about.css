@@ -1,0 +1,36 @@
+/* ABOUT US ========*/
+.about_us {
+    display: flex;
+    gap: 19.4rem;
+    margin-bottom: 18.8rem;
+}
+
+.about_img {
+    width: 40%;
+}
+
+.about_info {
+    width: 60%;
+}
+
+.about_info>h2 {
+    text-align: start;
+    margin-bottom: 2.3rem;
+}
+
+.about_info>p {
+    font-size: 2rem;
+    margin-bottom: 8rem;
+    line-height: 3rem;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info_child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
