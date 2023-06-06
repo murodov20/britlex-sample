@@ -12,6 +12,10 @@
     width: 60%;
 }
 
+.contact_info p {
+    padding-right: 10rem;
+}
+
 .contact_info>h2 {
     text-align: start;
     margin-bottom: 3.7rem;
@@ -30,6 +34,10 @@ form>input {
     border-radius: 1rem;
     border: 1px solid #8F95A5;
     outline: none;
+}
+
+@media screen and (max-width: 992px) {
+
 }
 
 @media screen and (max-width: 768px) {

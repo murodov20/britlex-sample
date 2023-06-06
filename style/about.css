@@ -43,6 +43,11 @@
 	.about_info {
 		padding-right: 5rem;
 	}
+
+	.about_us p {
+		font-size: 1.6rem;
+		line-height: 2.4rem;
+	}
 }
 
 @media screen and (max-width: 768px) {
